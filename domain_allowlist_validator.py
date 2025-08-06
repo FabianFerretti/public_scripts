@@ -69,9 +69,9 @@ import tzlocal  # Automatically detects the system's local timezone
 from OpenSSL import crypto
 
 # API Keys (Replace with yours)
-VIRUSTOTAL_API_KEY = "dab6abc48d21c2c1628147d439e550442c6edba3d5a019419f6ca7faec0c930b"
-GOOGLE_SAFE_BROWSING_API_KEY = "AIzaSyCX8TjEBmp66i_-7OiznOq2I5RSbtHhiG0"
-ABUSEIPDB_API_KEY = "6587e844b822f0b9af3e5b16ab8c400f69e77291e37d67c2d54c588b1324177faeee32172abca07e"
+VIRUSTOTAL_API_KEY = "<API_Key_Here>"
+GOOGLE_SAFE_BROWSING_API_KEY = "<API_Key_Here>"
+ABUSEIPDB_API_KEY = "<API_Key_Here>"
 
 def get_whois_info(domain):
     try:
