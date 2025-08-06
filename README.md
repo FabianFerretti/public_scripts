@@ -1,9 +1,10 @@
 # Domain Allowlist Validator
 #
-# This script performs a **comprehensive security analysis** of a domain before 
+# This script performs a **comprehensive security analysis** of a domain before  
 # allow-listing it for safe browsing in an organization. It automates key security 
 # checks to **detect malicious, phishing, or high-risk domains**.
 # --------------------------------------------------------------------------------
+
 #  **Key Features:**
 # - **VirusTotal Analysis**: 
 #     - Checks domain reputation, categories, last analysis date, and detection statistics.
@@ -28,6 +29,7 @@
 # - **Security Header Warnings**: 
 #     - Displays missing security headers (e.g., HSTS, CSP, X-XSS Protection) for awareness.
 # --------------------------------------------------------------------------------
+
 #  **How It Works:**
 #  1. Run in PowerShell or Command Prompt:  
 #       ```python domain_allowlist_validator.py```  
@@ -37,6 +39,7 @@
 #  4. It categorizes the domain as **Safe** or **Not Safe** based on pre-defined risk thresholds.
 #  5. If needed, enter another domain or type 'q' to exit.
 # --------------------------------------------------------------------------------
+
 #  **Required Dependencies:**
 # Install all dependencies using the following command:
 #     pip install requests dnspython python-whois pytz tzlocal pyOpenSSL
