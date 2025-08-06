@@ -99,7 +99,7 @@ def check_virustotal(domain):
             return {
                 "Last Analysis Stats": attributes.get("last_analysis_stats"),
                 "Reputation Score": attributes.get("reputation"),
-                "Community Score": community_score,  # Fixed: Now directly retrieves the score
+                "Community Score": community_score,  # Directly retrieves the score
                 "Categories": attributes.get("categories"),
                 "Last Analysis Date": convert_unix_timestamp_to_local(last_analysis_date),
             }
